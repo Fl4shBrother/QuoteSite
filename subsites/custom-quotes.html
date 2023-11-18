@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="..\styles.css" />
+        <title>Custom Quotes</title>
+        <script src="custom-quotes_script.js"> </script>
+    </head>
+    <body>
+        <main>
+            <img id="background-image" src="..\recources/bamboo.jpg">
+            
+            <nav>
+                <button type="button" onclick="location.href='../index.html';"> Front Page </button>
+            </nav>
+
+            <h1> Custom Quotes </h1>
+            
+            <div id="customQuotesInput">
+                <label for="lenght"> Input String Lenght </label>
+                <input type="text" id="lenght">
+                <button onclick="generateCustomHiraganaText('customQuote')"> Generate </button>
+                <p id="customQuote"> Please enter a number greater than 0! </p>
+
+                <label for="randomHiragana"> Random </label>    
+                <button onclick="generateRandomHiraganaText('randomHiragana')"> Generate </button>
+                <p id="randomHiragana"></p>
+            </div>
+        </main>
+    </body>
+</html>

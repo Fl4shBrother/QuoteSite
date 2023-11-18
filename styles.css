@@ -1,0 +1,103 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#background-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#front-page-button {
+    text-align: center;
+}
+
+#front-page-button button {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 1em;
+}
+
+#customQuotesInput{
+    text-align: center;
+}
+
+#customQuotesInput input{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#customQuotesInput label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    display: block;
+    color: blueviolet;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 0.5em;
+    width: 12em;
+}
+
+#customQuotesInput button {
+    display: block;
+    font-size: 2em;
+    margin: auto;
+}
+
+#customQuote {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+p{
+    color:blueviolet;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0.5em;
+}
+
+nav{
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav button{
+    font-size: 1em;
+    display: block;
+    margin: 0.5rem;
+    background-color: gray;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.2em;
+}
